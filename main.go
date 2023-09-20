@@ -104,7 +104,7 @@ func main() {
 			fmt.Println(data.AddItem(id, quantity, price, name))
 			helper.ShowMenu()
 		case "4":
-			fmt.Println("Terima kasih telah menggunakan Berbelanja.")
+			fmt.Println("Terima kasih telah Berbelanja.")
 			return
 		default:
 			fmt.Println("Menu Tidak Tersedia")
