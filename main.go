@@ -67,7 +67,7 @@ func main() {
 			invoice := data.ProsesTransaksi(transaksi)
 			fmt.Println("Transaksi Selesai!")
 			fmt.Println("ID Invoice:", invoice.IdInvoice)
-			fmt.Println("Tanggal:", invoice.Date)
+			fmt.Println("Tanggal:", invoice.Date.Format("02 January 2006"))
 			fmt.Println("Total: Rp.", invoice.Total)
 			fmt.Println("Pajak: Rp.", invoice.Tax)
 			fmt.Println("Total Keseluruhan: Rp.", invoice.GrandTotal)
