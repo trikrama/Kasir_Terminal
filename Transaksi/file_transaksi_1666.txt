@@ -1,0 +1,9 @@
+Invoice Number: 1666
+Date: 20 September 2023
+-------------------------------
+Items:
+- Pagar (x3) - Rp. 7000
+-------------------------------
+Total: Rp. 210.00
+Tax: Rp. 21.00
+Grand Total: Rp. 231.00
