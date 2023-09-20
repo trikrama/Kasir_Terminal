@@ -79,14 +79,7 @@ func main() {
 
 		case "2":
 			helper.ClearScreen()
-			fmt.Println("Daftar Barang:")
-			fmt.Println(strings.Repeat("-", 45))
-			fmt.Printf("%-10s %-10s %-10s %-10s\n", "Id", "Nama", "Jumlah", "Harga")
-			fmt.Println(strings.Repeat("-", 45))
-			for _, item := range data.DataItems {
-				fmt.Printf("%-10s %-10s %-10s %-10s\n", strconv.Itoa(item.ID), item.Name, "  "+strconv.Itoa(item.Quantity), "Rp. "+strconv.Itoa(item.Price))
-			}
-			fmt.Println(strings.Repeat("-", 45))
+			data.ListBarang()
 			helper.ShowMenu()
 
 		case "3":
