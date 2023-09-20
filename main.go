@@ -34,7 +34,7 @@ func main() {
 			var transaksi []data.Item
 			for {
 				reader := bufio.NewReader(os.Stdin)
-				fmt.Print("Masukkan Nama Barang: ")
+				fmt.Print("Masukkan Nama Barang (kosongkan atau Enter untuk selesai): ")
 				name, _ := reader.ReadString('\n')
 				name = strings.TrimSpace(name)
 				if name == "" {
